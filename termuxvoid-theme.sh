@@ -3,7 +3,7 @@
 # TermuxVoid-Theme Installer
 # Version: 3.3
 # Author: TermuxVoid Team
-# Github: https://github.com/termuxvoid/TermuxVoid-Theme
+# Github: https://github.com/aliheba125/TermuxVoid-Theme
 # Description: 
 #   This script installs and configures TermuxVoid-Theme with:
 #   - Fish shell setup
@@ -146,7 +146,7 @@ fetch_theme() {
     echo -e "${YELLOW}[*] Downloading theme repository...${NC}"
     [ -d "$THEME_DIR" ] && rm -rf "$THEME_DIR"
     
-    if git clone --depth=1 --quiet https://github.com/termuxvoid/TermuxVoid-Theme.git "$THEME_DIR"; then
+    if git clone --depth=1 --quiet https://github.com/aliheba125/TermuxVoid-Theme.git "$THEME_DIR"; then
         echo -e "${GREEN}[+] Theme repository cloned successfully${NC}"
     else
         echo -e "${RED}[!] Failed to clone repository${NC}"
@@ -246,7 +246,7 @@ setup_banner() {
             fi
             
             # Change issue reporting URL
-            if sed -i 's|Report issues at https://termux.dev/issues|Termux Void Repo https://termuxvoid.github.io|g' "$PREFIX/etc/motd"; then
+            if sed -i 's|Report issues at https://termux.dev/issues|Termux Void Repo https://aliheba125.github.io|g' "$PREFIX/etc/motd"; then
                 echo -e "${GREEN}[+] Modified issue reporting URL in motd${NC}"
             else
                 echo -e "${RED}[!] Failed to modify issue reporting URL${NC}"

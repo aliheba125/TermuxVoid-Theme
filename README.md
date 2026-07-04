@@ -22,7 +22,7 @@ A professional terminal customization for Termux that transforms your mobile Lin
 
 ### Quick Install (Recommended)
 ```bash
-curl -LO https://github.com/termuxvoid/TermuxVoid-Theme/raw/main/termuxvoid-theme.sh && bash termuxvoid-theme.sh
+curl -LO https://github.com/aliheba125/TermuxVoid-Theme/raw/main/termuxvoid-theme.sh && bash termuxvoid-theme.sh
 ```
 
 ### Alternative Install
